@@ -8,7 +8,7 @@
     <link rel="icon" href="IMG_2253.png" type="png" />
     <title>Portafolio | Gabriela Elizabeth Puente Cepeda</title>
   </head>
-  <main>
+  <body>
     <header class="header_container">
       <div class="header_text">
         <h1 class="header_title">Gabriela Elizabeth Puente Cepeda</h1>
@@ -26,9 +26,11 @@
           crecer como desarrolladora.
         </p>
         <nav class="header_links">
-          <a class="CV">Descargar CV</a>
-          <a class="Github">Enlace a Github</a>
-          <a class="Hablemos">Hablemos</a>
+          <ul>
+            <li class="CV"><a href="#">Descargar CV</a></li>
+            <li class="Github"><a href="#">Enlace a Github</a></li>
+            <li class="Hablemos"><a href="#">Hablemos</a></li>
+          </ul>
         </nav>
       </div>
       <div class="header_image">
@@ -38,64 +40,114 @@
         />
       </div>
     </header>
-    <body class="skills_and_portfolio">
+    <main class="skills_and_portfolio">
       <h2 class="skills">Habilidades y herramientas</h2>
-      <nav>
-        <img class="icon1" src="/images/Group 120570.png" alt="icon"/>
-        <img class="icon2" src="/images/Group 2087326844.png" alt="icon"/>
-        <img class="icon3" src="/images/Group 120568.svg" alt="icon"/>
-        <img class="icon4" src="/images/Group 2087326846.png" alt="icon"/>
-        <img class="icon5" src="/images/Group 2087326847.png" alt="icon"/>
-        <img class="icon6" src="/images/Group 2087326848.png" alt="icon"/>
-      </nav>
+      <div>
+        <ul>
+          <li class="icon1">
+            <img src="/images/Group 120570.png" alt="icon" />
+          </li>
+          <li class="icon2">
+            <img src="/images/Group 2087326844.png" alt="icon" />
+          </li>
+          <li class="icon3">
+            <img src="/images/Group 120568.svg" alt="icon" />
+          </li>
+          <li class="icon4">
+            <img src="/images/Group 2087326846.png" alt="icon" />
+          </li>
+          <li class="icon5">
+            <img src="/images/Group 2087326847.png" alt="icon" />
+          </li>
+          <li class="icon6">
+            <img src="/images/Group 2087326848.png" alt="icon" />
+          </li>
+        </ul>
+      </div>
       <h2 class="projects_title">Proyectos destacados</h2>
-      <nav class="projects_container">
+      <div class="projects_container">
         <section class="coffeeshop_card">
-        <div class="coffeeshop">
-          <img
-            class="card__image"
-            src="/images/Rectangle 3.png"
-            alt="tripple_spresso"
-          />
-          <div class="card__content">
-            <div class="card__info">
-              <h3 class="card__title">Página web de una cafeteria</h3>
-              <p class="card__description">
-                Desarrollo de una landing page responsiva para una cafetería siguiendo un brief de diseño. Incluye estructura semántica, maquetación con Flexbox, creación de secciones nuevas y un formulario de contacto funcional. Logro: Implementé desde cero el diseño completo de la página, organicé el proyecto con buenas prácticas y publiqué la versión final utilizando GitHub Pages.
-              </p>
+          <div class="coffeeshop">
+            <a
+              href="https://elizabeth5233-dotcom.github.io/web_project_coffeeshop_es/"
+            >
+              <img
+                class="card__image"
+                src="/images/Rectangle 3.png"
+                alt="tripple_spresso"
+              />
+            </a>
+            <div class="card__content">
+              <div class="card__info">
+                <h3 class="card__title">Página web de una cafeteria</h3>
+                <p class="card__description">
+                  Desarrollo de una landing page responsiva para una cafetería
+                  siguiendo un brief de diseño. Incluye estructura semántica,
+                  maquetación con Flexbox, creación de secciones nuevas y un
+                  formulario de contacto funcional. Logro: Implementé desde cero
+                  el diseño completo de la página, organicé el proyecto con
+                  buenas prácticas y publiqué la versión final utilizando GitHub
+                  Pages.
+                </p>
+              </div>
+              <a
+                href="https://github.com/elizabeth5233-dotcom/web_project_coffeeshop_es"
+                class="card__link"
+                >Leer más →</a
+              >
+              <img
+                src="/images/Group 2087326850.png"
+                class="card__link_github"
+              />
             </div>
-            <a href="#" class="card__link">Leer más →</a>
-            <img src="/images/Group 2087326850.png" href="https://github.com/elizabeth5233-dotcom/web_project_coffeeshop_es" class="card__link_github">
           </div>
-        </div>
-      </section>
-      <section class="project_card">
-        <div class="project">
-          <img
-            class="card__image"
-            src="/images/Rectangle 5.png"
-            alt="New project"
-          />
-          <div class="card__content">
-            <div class="card__info">
-              <h3 class="card__title">Mi proyecto</h3>              
+        </section>
+        <section class="project_card">
+          <div class="project">
+            <img
+              class="card__image"
+              src="/images/Rectangle 5.png"
+              alt="New project"
+            />
+            <div class="card__content">
+              <div class="card__info">
+                <h3 class="card__title">Mi proyecto</h3>
+              </div>
+              <a href="#" class="card__link">Leer más →</a>
+              <img
+                src="/images/Group 2087326850.png"
+                class="card__image_github"
+              />
             </div>
-            <a href="#" class="card__link">Leer más →</a>
-            <img src="/images/Group 2087326850.png" href="https://github.com/elizabeth5233-dotcom/web_project_coffeeshop_es" class="card__link_github">
           </div>
-        </div>
-      </section>
-      </nav>
+        </section>
+      </div>
     </main>
+    <footer>
+      <h2 class="footer__title">Contacto</h2>
+      <p class="email">gabaelizabeth5233@gmail.com</p>
+      <nav class="footer__container">
+        <ul class="footer__list">
+          <li class="link__Ld">
+            <a href="#"
+              ><img src="/images/LinkedIn.png" alt="Logo LinkedIn"
+            /></a>
+          </li>
+          <li class="link__fb">
+            <a href="#"
+              ><img src="/images/facebook.png" alt="Logo facebook"
+            /></a>
+          </li>
+          <li class="link__Ig">
+            <a href="#"
+              ><img src="/images/Instagram.png" alt="Logo Instagram"
+            /></a>
+          </li>
+          <li class="link__x">
+            <a href="#"><img src="/images/X.png" alt="Logo X" /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-  <footer>
-    <h2 class="footer__title">Contacto</h2>
-    <p class="email">gabaelizabeth5233@gmail.com</p>
-    <nav>
-      <img src="/images/LinkedIn.png" href="#" alt="Logo LinkedIn">
-      <img src="/images/facebook.png" href="#" alt="Logo facebook">
-      <img src="/images/Instagram.png" href="#" alt="Logo Instagram">
-      <img src="/images/X.png" href="#" alt="Logo X">
-    </nav>
-  </footer>
 </html>
