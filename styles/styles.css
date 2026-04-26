@@ -1,0 +1,93 @@
+body {
+  background-color: #111111;
+}
+
+.header__container {
+  position: relative;
+}
+
+.header__text {
+}
+
+.header__title {
+}
+
+.header__subtitle {
+}
+
+.header__content {
+}
+
+.header__link {
+}
+
+.cv {
+}
+
+.github {
+}
+
+.hablemos {
+}
+
+.header__image {
+}
+
+.skill__and_portafolio {
+}
+
+.skill {
+}
+
+.skills__icons {
+  padding: 20px;
+  text-align: center;
+}
+
+.icons__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.projects__title {
+}
+
+.projects__container {
+}
+
+.project__card {
+}
+
+.project {
+}
+
+.card__image {
+}
+
+.card__content {
+}
+
+.card__info {
+}
+
+.card__title {
+}
+
+.card__description {
+}
+
+.card__link {
+}
+
+.card__link_github {
+}
+
+.footer__title {
+}
+
+.email {
+}
+
+.footer__container {
+}
