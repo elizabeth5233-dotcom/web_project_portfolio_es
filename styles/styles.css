@@ -1,24 +1,62 @@
+@font-face {
+  font-family: "ArchivoBlack";
+  src:
+    url("/fonts/ArchivoBlack-Regular.woff") format("woff"),
+    url("/fonts/ArchivoBlack-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src:
+    url("/fonts/OpenSans-Bold.woff") format("woff"),
+    url("/fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular.woff") format("woff"),
+    url("/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("/fonts/OpenSans-SemiBold.woff") format("woff"),
+    url("/fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #111111;
 }
 
 .header__container {
-  position: relative;
+  display: flex;
+  gap: 20px;
 }
 
 .header__text {
 }
 
 .header__title {
+  color: #ffffff;
+  font-family: ArchivoBlack;
 }
 
 .header__subtitle {
+  color: #ffffff;
 }
 
 .header__content {
+  display: flex;
+  width: 793px;
+  height: 150px;
+  margin-left: 120px;
+  line-height: auto;
+  color: #ffffff;
 }
 
-.header__link {
+.header__links_container li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__links {
+  list-style-type: none;
 }
 
 .cv {
@@ -31,6 +69,10 @@ body {
 }
 
 .header__image {
+  display: flex;
+  width: 387px;
+  height: 500px;
+  margin-top: 40px;
 }
 
 .skill__and_portafolio {
