@@ -97,7 +97,14 @@ body {
   bottom: -5px;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+  background: linear-gradient(90deg, #6c5ce7, #00ff7b);
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.header__links li a:hover::after {
+  transform: scaleX(1.2);
 }
 
 .header__image {
