@@ -28,6 +28,7 @@ body {
   display: flex;
   gap: 20px;
   margin-left: 120px;
+  margin-right: 185px;
 }
 
 .header__container::before {
@@ -115,10 +116,15 @@ body {
   margin-right: 63px;
 }
 
-.skill__and_portafolio {
+.skills__and_portfolio {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 185px;
+  padding-top:;
 }
 
-.skill {
+.skills_title {
+  display: flex;
 }
 
 .skills__icons {
