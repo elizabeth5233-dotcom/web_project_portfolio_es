@@ -49,13 +49,13 @@ body {
 
 .header__title {
   color: #ffffff;
-  font-family: "ArchivoBlack", "arial", "sans-serif";
+  font-family: "ArchivoBlack", arial, sans-serif;
   font-size: 72px;
 }
 
 .header__subtitle {
   color: #ffffff;
-  font-family: "OpenSans-regular", "arial", "sans-serif";
+  font-family: "OpenSans-regular", arial, sans-serif;
   font-size: 18px;
   opacity: 0.5;
 }
@@ -66,7 +66,7 @@ body {
   height: 150px;
   line-height: auto;
   color: #ffffff;
-  font-family: "OpenSans-Regular", "arial", "sans-serif";
+  font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
 }
@@ -74,7 +74,7 @@ body {
 .header__links_container li a {
   text-decoration: none;
   color: #ffffff;
-  font-family: "OpenSans-SemiBold", "arial", "sans-serif";
+  font-family: "OpenSans-SemiBold", Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -120,31 +120,46 @@ body {
   display: flex;
   margin-left: 120px;
   margin-right: 185px;
-  padding-top:;
+  margin-top: 115px;
+  flex-direction: column;
 }
 
-.skills_title {
+.skills__title {
   display: flex;
+  font-family: "ArchivoBlack", Arial, sans-serif;
+  font-size: 40px;
+  color: #ffffff;
 }
 
 .skills__icons {
-  padding: 20px;
-  text-align: center;
 }
 
 .icons__list {
+  margin-top: 40px;
   display: flex;
-  gap: 20px;
   list-style: none;
+  justify-content: center;
+  gap: 187px;
 }
 
 .projects__title {
+  margin-top: 157px;
+  font-family: "ArchivoBlack", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 40px;
 }
 
 .projects__container {
+  margin-top: 94px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .project__card {
+  background-color: #1c1c1c; /* gris oscuro */
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .project {
@@ -157,12 +172,20 @@ body {
 }
 
 .card__info {
+  color: #ffffff;
+  padding: 40px;
+  margin-top: -10px;
 }
 
 .card__title {
+  font-family: "OpenSans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .card__description {
+  font-size: 18px;
+  font-family: "OpenSans-Regular", Arial, sans-serif;
 }
 
 .card__link {
