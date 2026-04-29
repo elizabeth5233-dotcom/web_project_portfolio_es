@@ -160,12 +160,16 @@ body {
   background-color: #1c1c1c; /* gris oscuro */
   border-radius: 10px;
   overflow: hidden;
+  width: 590px;
+  height: 670px;
 }
 
 .project {
 }
 
 .card__image {
+  width: 590px;
+  height: 330px;
 }
 
 .card__content {
@@ -188,6 +192,9 @@ body {
   font-family: "OpenSans-Regular", Arial, sans-serif;
 }
 
+.card__links {
+  margin-left: 40px;
+}
 .card__link {
 }
 
