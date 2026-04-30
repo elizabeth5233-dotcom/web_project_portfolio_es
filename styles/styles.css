@@ -23,7 +23,6 @@
 body {
   background-color: #111111;
   margin: 0;
-  overflow-x: hidden;
 }
 
 .header__container {
@@ -33,10 +32,31 @@ body {
   align-items: center;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .header__container {
-    flex-wrap: wrap;
     justify-content: center;
+    margin-left: 40px;
+  }
+
+  .header__content {
+    height: auto;
+    max-width: 450px;
+  }
+
+  .header__title {
+    width: 434px;
+  }
+
+  .header__image {
+    max-width: 216px;
+    max-height: 280px;
+  }
+
+  .skills__title {
+    align-items: center;
+  }
+
+  .projects__container {
   }
 }
 
@@ -154,7 +174,7 @@ body {
 .projects__container {
   margin-top: 94px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1rf));
   gap: 20px;
   justify-items: center;
 }
