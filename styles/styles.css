@@ -59,7 +59,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 320px) {
   .header__container {
     justify-content: center;
     margin-left: 40px;
@@ -67,6 +67,10 @@ body {
   .header__image {
     width: 280px;
     height: 280px;
+  }
+  .header__links {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -118,8 +122,6 @@ body {
   padding: 0;
   list-style: none;
   gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .header__links a {
