@@ -233,9 +233,6 @@ body {
   margin-top: 0px;
 }
 
-.footer__container {
-}
-
 .footer__list {
   display: flex;
   flex-direction: row;
@@ -243,8 +240,9 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 400px;
+  width: 400px;
   width: 100%;
+  padding:0;
 }
 
 .footer__container::before {
@@ -311,4 +309,13 @@ body {
     padding: 0;
     justify-content: left;
   }
+
+  .projects__container {
+  margin-top: 40px;
 }
+
+.footer__list{
+margin: 0;
+padding: 0;
+}
+
