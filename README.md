@@ -6,4 +6,4 @@ Descripción del proyecto: Es la pagina de mi portafolios online. A traves de el
 
 Planes para la mejora del proyecto: Subir el CV, agregar más adelante los demás proyectos que realice en el curso, cambiar los colores y cambiar el diseño del header a uno más profesional.
 
-Link al proyecto --->
+Link al proyecto --->https://elizabeth5233-dotcom.github.io/web_project_portfolio_es/
