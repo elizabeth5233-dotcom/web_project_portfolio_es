@@ -78,6 +78,7 @@ body {
   padding: 0;
   list-style: none;
   gap: 30px;
+  flex-direction: row;
 }
 
 .header__links a {
@@ -129,7 +130,6 @@ body {
   list-style: none;
   justify-content: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .projects__title {
@@ -242,7 +242,7 @@ body {
   gap: 20px;
   width: 400px;
   width: 100%;
-  padding:0;
+  padding: 0;
 }
 
 .footer__container::before {
@@ -277,9 +277,6 @@ body {
   .skills__title {
     align-items: center;
   }
-
-  .projects__container {
-  }
 }
 
 @media (max-width: 320px) {
@@ -311,11 +308,11 @@ body {
   }
 
   .projects__container {
-  margin-top: 40px;
-}
+    margin-top: 40px;
+  }
 
-.footer__list{
-margin: 0;
-padding: 0;
+  .footer__list {
+    margin: 0;
+    padding: 0;
+  }
 }
-
